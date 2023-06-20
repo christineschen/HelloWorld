@@ -1,0 +1,20 @@
+{
+    "collection": "relationshipTestTwo",
+    "database": "test",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {},
+            "document_filters": {
+                "read": true,
+                "write": true
+            }
+        }
+    ]
+}

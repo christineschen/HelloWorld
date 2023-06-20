@@ -1,1 +1,46 @@
-[]
+[
+    {
+        "name": "listenToTest",
+        "private": true,
+        "can_evaluate": {}
+    },
+    {
+        "name": "upsertAndInc",
+        "private": true,
+        "can_evaluate": {}
+    },
+    {
+        "name": "http_bb",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "http_dep_resolution",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "listenToLogs",
+        "private": true,
+        "can_evaluate": {}
+    },
+    {
+        "name": "appendSuffix",
+        "private": true,
+        "can_evaluate": {}
+    },
+    {
+        "name": "upsertAndIncServerless",
+        "private": true
+    },
+    {
+        "name": "findOneAtlasDatalake",
+        "private": true,
+        "can_evaluate": {}
+    },
+    {
+        "name": "findOneS3Datalake",
+        "private": true,
+        "can_evaluate": {}
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "name": "trigger_logs_to_collection",
+    "log_types": [
+        "trigger"
+    ],
+    "log_statuses": [
+        "success"
+    ],
+    "policy": {
+        "type": "single"
+    },
+    "action": {
+        "type": "collection",
+        "data_source": "mongodb-atlas",
+        "database": "test",
+        "collection": "trigger-logs"
+    },
+    "disabled": false
+}

@@ -1,0 +1,8 @@
+{
+    "r": {
+        "ref": "#/relationship/mongodb-atlas/test/relationshipTest",
+        "source_key": "r",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

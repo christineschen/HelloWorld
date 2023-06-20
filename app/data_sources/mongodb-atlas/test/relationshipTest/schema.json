@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "i": {
+            "bsonType": "long"
+        },
+        "s": {
+            "bsonType": "string"
+        },
+        "partitionKey": {
+            "bsonType": "string"
+        }
+    },
+    "title": "relationshipTest"
+}

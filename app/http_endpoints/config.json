@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "route": "/http/bb",
+        "http_method": "POST",
+        "function_name": "http_bb",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "http_bb",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/http/dep_resolution",
+        "http_method": "POST",
+        "function_name": "http_dep_resolution",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "http_dep_resolution",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    }
+]

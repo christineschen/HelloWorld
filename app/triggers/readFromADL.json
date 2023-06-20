@@ -1,0 +1,15 @@
+{
+    "name": "readFromADL",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/10 * * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "findOneAtlasDatalake"
+            }
+        }
+    }
+}
