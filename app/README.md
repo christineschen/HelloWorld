@@ -1,4 +1,4 @@
-# Canary Apps
+#  Canary Apps
 
 This README is for creating and updating the prod and staging canary apps. More details can be found [here](https://wiki.corp.mongodb.com/display/MMS/Baas+Ops#BaasOps-CanaryApps).
 
