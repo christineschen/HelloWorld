@@ -1,0 +1,8 @@
+{
+    "app_id": "0620-canary-ttdkj",
+    "config_version": 20210101,
+    "name": "0620-canary",
+    "location": "US-VA",
+    "provider_region": "aws-us-east-1",
+    "deployment_model": "GLOBAL"
+}
