@@ -1,5 +1,7 @@
 {
     "app_id": "0921-kdfsf",
     "config_version": 20210101,
-    "name": "0921"
+    "name": "0921",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL"
 }
