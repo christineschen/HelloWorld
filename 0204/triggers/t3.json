@@ -1,0 +1,19 @@
+{
+    "id": "6227ec6df05b75f0991432a4",
+    "name": "t3",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "anon-user"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "f1"
+            }
+        }
+    }
+}

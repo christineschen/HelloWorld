@@ -1,0 +1,17 @@
+{
+    "id": "6227eb715f2f4374b175d868",
+    "name": "t2",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "myFunc"
+            }
+        }
+    }
+}
