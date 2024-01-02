@@ -1,0 +1,19 @@
+{
+    "id": "65947d70286599b6e8a07cb5",
+    "name": "Trigger-0",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "LOGIN",
+        "providers": [
+            "anon-user"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "myFunc"
+            }
+        }
+    }
+}
